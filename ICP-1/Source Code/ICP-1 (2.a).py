@@ -1,0 +1,5 @@
+# Removing two characters from a string, reversing the string and printing the output
+a_string="Python" # Python string is assigned to variable a_string
+a_string=a_string.replace("h","")  # deletes the character h and assigned empty character in place of it
+b_string=a_string.replace("o","")  # the output of above step is assigned to b_string in which character o is deleted
+print(b_string[::-1])  # prints the output string stored in b_string
