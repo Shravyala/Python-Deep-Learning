@@ -1,0 +1,24 @@
+# Reading weights (lbs.) of N students into a list and convert these weights to kilograms in a separate list
+# using loops
+Lbs = []
+Kgs = []
+
+N = int(input("How many number of students:"))
+for i in range(N):
+    num = int(input('Enter the weight of the student in lbs:'))
+    Lbs.append(num)
+    kilograms = num * 0.454
+    Kgs.append(kilograms)
+print("The Output using Loops is shown below")
+print("Weights in Lbs")
+print(Lbs)
+
+print("Weights in Kgs")
+print(Kgs)
+
+# Using List Comprehensions
+Kilograms = []
+print("The Output using List Comprehensions is shown below")
+Kilograms = [num * 0.454 for num in Lbs]
+print("Weights in Kgs")
+print(Kilograms)
