@@ -1,0 +1,18 @@
+from bs4 import BeautifulSoup                # importing the library
+import requests
+file = open("destination.txt", "w")
+html = requests.get("https://en.wikipedia.org/wiki/Deep_learning")
+soup = BeautifulSoup(html.content, "html.parser")      # Using BeautifulSoup to parse the html
+
+print(soup.title.string)       # printing the title of the web page
+
+print(soup.find_all('a'))     # finding all the hyperlinks
+
+for link in soup.find_all('a'):
+    output= link.get('href')          # href provides the link destination
+    print(output)
+# Saving the links to the file
+
+    file.write(str(output))
+    file.write('\n')
+file.close()
