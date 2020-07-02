@@ -1,0 +1,281 @@
+C:\Users\SHRAVYALA\anaconda3\envs\pythonclass\python.exe "C:/Users/SHRAVYALA/PycharmProjects/Python_ICP's/ICP-8 (Deep Learning)/ICP-8(3)_Normalization.py"
+2020-07-02 19:12:02.357419: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cudart64_101.dll'; dlerror: cudart64_101.dll not found
+2020-07-02 19:12:02.357722: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 569 entries, 0 to 568
+Data columns (total 33 columns):
+ #   Column                   Non-Null Count  Dtype  
+---  ------                   --------------  -----  
+ 0   id                       569 non-null    int64  
+ 1   diagnosis                569 non-null    object 
+ 2   radius_mean              569 non-null    float64
+ 3   texture_mean             569 non-null    float64
+ 4   perimeter_mean           569 non-null    float64
+ 5   area_mean                569 non-null    float64
+ 6   smoothness_mean          569 non-null    float64
+ 7   compactness_mean         569 non-null    float64
+ 8   concavity_mean           569 non-null    float64
+ 9   concave points_mean      569 non-null    float64
+ 10  symmetry_mean            569 non-null    float64
+ 11  fractal_dimension_mean   569 non-null    float64
+ 12  radius_se                569 non-null    float64
+ 13  texture_se               569 non-null    float64
+ 14  perimeter_se             569 non-null    float64
+ 15  area_se                  569 non-null    float64
+ 16  smoothness_se            569 non-null    float64
+ 17  compactness_se           569 non-null    float64
+ 18  concavity_se             569 non-null    float64
+ 19  concave points_se        569 non-null    float64
+ 20  symmetry_se              569 non-null    float64
+ 21  fractal_dimension_se     569 non-null    float64
+ 22  radius_worst             569 non-null    float64
+ 23  texture_worst            569 non-null    float64
+ 24  perimeter_worst          569 non-null    float64
+ 25  area_worst               569 non-null    float64
+ 26  smoothness_worst         569 non-null    float64
+ 27  compactness_worst        569 non-null    float64
+ 28  concavity_worst          569 non-null    float64
+ 29  concave points_worst     569 non-null    float64
+ 30  symmetry_worst           569 non-null    float64
+ 31  fractal_dimension_worst  569 non-null    float64
+ 32  Unnamed: 32              0 non-null      float64
+dtypes: float64(31), int64(1), object(1)
+memory usage: 146.8+ KB
+[[ 1.09706398 -2.07333501  1.26993369 ...  2.10952635  2.29607613
+   1.93701461]
+ [ 1.82982061 -0.35363241  1.68595471 ... -0.14674897  1.0870843
+   0.28118999]
+ [ 1.57988811  0.45618695  1.56650313 ...  0.85497394  1.95500035
+   0.20139121]
+ ...
+ [ 0.70228425  2.0455738   0.67267578 ...  0.3267666   0.41406869
+  -0.31840916]
+ [ 1.83834103  2.33645719  1.98252415 ...  3.19760468  2.28998549
+   2.21963528]
+ [-1.80840125  1.22179204 -1.81438851 ... -1.30583065 -1.74506282
+  -0.75120669]]
+2020-07-02 19:12:04.813487: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'nvcuda.dll'; dlerror: nvcuda.dll not found
+2020-07-02 19:12:04.813754: E tensorflow/stream_executor/cuda/cuda_driver.cc:313] failed call to cuInit: UNKNOWN ERROR (303)
+2020-07-02 19:12:04.818033: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:169] retrieving CUDA diagnostic information for host: DESKTOP-U4SF5VC
+2020-07-02 19:12:04.818364: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:176] hostname: DESKTOP-U4SF5VC
+2020-07-02 19:12:04.818936: I tensorflow/core/platform/cpu_feature_guard.cc:143] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+2020-07-02 19:12:04.827159: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x1897492c5d0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-07-02 19:12:04.827561: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Epoch 1/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.6121 - accuracy: 0.6784
+Epoch 2/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.3760 - accuracy: 0.9108
+Epoch 3/100
+14/14 [==============================] - 0s 0s/step - loss: 0.2686 - accuracy: 0.9343
+Epoch 4/100
+14/14 [==============================] - 0s 0s/step - loss: 0.2120 - accuracy: 0.9507
+Epoch 5/100
+14/14 [==============================] - 0s 0s/step - loss: 0.1798 - accuracy: 0.9531
+Epoch 6/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.1580 - accuracy: 0.9554
+Epoch 7/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.1428 - accuracy: 0.9577
+Epoch 8/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.1310 - accuracy: 0.9577
+Epoch 9/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.1213 - accuracy: 0.9577
+Epoch 10/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.1133 - accuracy: 0.9601
+Epoch 11/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.1064 - accuracy: 0.9601
+Epoch 12/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.1006 - accuracy: 0.9601
+Epoch 13/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0958 - accuracy: 0.9624
+Epoch 14/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0913 - accuracy: 0.9648
+Epoch 15/100
+14/14 [==============================] - 0s 2ms/step - loss: 0.0870 - accuracy: 0.9671
+Epoch 16/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0837 - accuracy: 0.9695
+Epoch 17/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0803 - accuracy: 0.9742
+Epoch 18/100
+14/14 [==============================] - 0s 2ms/step - loss: 0.0772 - accuracy: 0.9789
+Epoch 19/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0743 - accuracy: 0.9789
+Epoch 20/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0717 - accuracy: 0.9789
+Epoch 21/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0695 - accuracy: 0.9789
+Epoch 22/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0669 - accuracy: 0.9789
+Epoch 23/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0649 - accuracy: 0.9789
+Epoch 24/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0628 - accuracy: 0.9812
+Epoch 25/100
+14/14 [==============================] - 0s 0s/step - loss: 0.0609 - accuracy: 0.9812
+Epoch 26/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0592 - accuracy: 0.9812
+Epoch 27/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0573 - accuracy: 0.9836
+Epoch 28/100
+14/14 [==============================] - 0s 0s/step - loss: 0.0560 - accuracy: 0.9859
+Epoch 29/100
+14/14 [==============================] - 0s 0s/step - loss: 0.0543 - accuracy: 0.9836
+Epoch 30/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0527 - accuracy: 0.9859
+Epoch 31/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0511 - accuracy: 0.9836
+Epoch 32/100
+14/14 [==============================] - 0s 0s/step - loss: 0.0498 - accuracy: 0.9859
+Epoch 33/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0485 - accuracy: 0.9883
+Epoch 34/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0473 - accuracy: 0.9883
+Epoch 35/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0460 - accuracy: 0.9883
+Epoch 36/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0449 - accuracy: 0.9883
+Epoch 37/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0437 - accuracy: 0.9906
+Epoch 38/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0428 - accuracy: 0.9930
+Epoch 39/100
+14/14 [==============================] - 0s 0s/step - loss: 0.0417 - accuracy: 0.9930
+Epoch 40/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0409 - accuracy: 0.9930
+Epoch 41/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0398 - accuracy: 0.9930
+Epoch 42/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0386 - accuracy: 0.9930
+Epoch 43/100
+14/14 [==============================] - 0s 0s/step - loss: 0.0378 - accuracy: 0.9930
+Epoch 44/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0369 - accuracy: 0.9930
+Epoch 45/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0360 - accuracy: 0.9930
+Epoch 46/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0356 - accuracy: 0.9930
+Epoch 47/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0344 - accuracy: 0.9930
+Epoch 48/100
+14/14 [==============================] - 0s 2ms/step - loss: 0.0337 - accuracy: 0.9930
+Epoch 49/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0330 - accuracy: 0.9930
+Epoch 50/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0323 - accuracy: 0.9930
+Epoch 51/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0315 - accuracy: 0.9930
+Epoch 52/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0308 - accuracy: 0.9930
+Epoch 53/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0299 - accuracy: 0.9930
+Epoch 54/100
+14/14 [==============================] - 0s 0s/step - loss: 0.0296 - accuracy: 0.9930
+Epoch 55/100
+14/14 [==============================] - 0s 0s/step - loss: 0.0289 - accuracy: 0.9930
+Epoch 56/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0283 - accuracy: 0.9930
+Epoch 57/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0279 - accuracy: 0.9930
+Epoch 58/100
+14/14 [==============================] - 0s 0s/step - loss: 0.0273 - accuracy: 0.9930
+Epoch 59/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0267 - accuracy: 0.9930
+Epoch 60/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0262 - accuracy: 0.9930
+Epoch 61/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0257 - accuracy: 0.9930
+Epoch 62/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0251 - accuracy: 0.9930
+Epoch 63/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0251 - accuracy: 0.9930
+Epoch 64/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0245 - accuracy: 0.9930
+Epoch 65/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0238 - accuracy: 0.9930
+Epoch 66/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0233 - accuracy: 0.9930
+Epoch 67/100
+14/14 [==============================] - 0s 0s/step - loss: 0.0230 - accuracy: 0.9930
+Epoch 68/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0226 - accuracy: 0.9930
+Epoch 69/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0221 - accuracy: 0.9953
+Epoch 70/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0216 - accuracy: 0.9953
+Epoch 71/100
+14/14 [==============================] - 0s 0s/step - loss: 0.0212 - accuracy: 0.9953
+Epoch 72/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0208 - accuracy: 0.9977
+Epoch 73/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0206 - accuracy: 0.9977
+Epoch 74/100
+14/14 [==============================] - 0s 0s/step - loss: 0.0200 - accuracy: 0.9977
+Epoch 75/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0198 - accuracy: 0.9977
+Epoch 76/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0193 - accuracy: 0.9977
+Epoch 77/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0191 - accuracy: 0.9977
+Epoch 78/100
+14/14 [==============================] - 0s 2ms/step - loss: 0.0188 - accuracy: 0.9977
+Epoch 79/100
+14/14 [==============================] - 0s 2ms/step - loss: 0.0186 - accuracy: 0.9977
+Epoch 80/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0181 - accuracy: 0.9977
+Epoch 81/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0179 - accuracy: 0.9977
+Epoch 82/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0175 - accuracy: 0.9977
+Epoch 83/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0174 - accuracy: 0.9977
+Epoch 84/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0169 - accuracy: 0.9977
+Epoch 85/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0166 - accuracy: 0.9977
+Epoch 86/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0163 - accuracy: 0.9977
+Epoch 87/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0161 - accuracy: 0.9977
+Epoch 88/100
+14/14 [==============================] - 0s 2ms/step - loss: 0.0158 - accuracy: 0.9977
+Epoch 89/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0155 - accuracy: 0.9977
+Epoch 90/100
+14/14 [==============================] - 0s 2ms/step - loss: 0.0154 - accuracy: 0.9977
+Epoch 91/100
+14/14 [==============================] - 0s 0s/step - loss: 0.0151 - accuracy: 0.9977
+Epoch 92/100
+14/14 [==============================] - 0s 0s/step - loss: 0.0148 - accuracy: 0.9977
+Epoch 93/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0147 - accuracy: 0.9977
+Epoch 94/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0144 - accuracy: 0.9977
+Epoch 95/100
+14/14 [==============================] - 0s 0s/step - loss: 0.0142 - accuracy: 0.9977
+Epoch 96/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0141 - accuracy: 0.9977
+Epoch 97/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0138 - accuracy: 0.9977
+Epoch 98/100
+14/14 [==============================] - 0s 0s/step - loss: 0.0136 - accuracy: 0.9977
+Epoch 99/100
+14/14 [==============================] - 0s 0s/step - loss: 0.0134 - accuracy: 0.9977
+Epoch 100/100
+14/14 [==============================] - 0s 1ms/step - loss: 0.0131 - accuracy: 0.9977
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+dense (Dense)                (None, 50)                1500      
+_________________________________________________________________
+dense_1 (Dense)              (None, 1)                 51        
+=================================================================
+Total params: 1,551
+Trainable params: 1,551
+Non-trainable params: 0
+_________________________________________________________________
+None
+5/5 [==============================] - 0s 0s/step - loss: 0.1997 - accuracy: 0.9650
+The loss is:  0.19966450333595276
+The accuracy is:  0.9650349617004395
+
+Process finished with exit code 0
