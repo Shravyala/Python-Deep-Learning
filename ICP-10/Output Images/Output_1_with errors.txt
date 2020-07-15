@@ -1,0 +1,16 @@
+C:\Users\SHRAVYALA\anaconda3\envs\tensorflow_env\python.exe "C:/Users/SHRAVYALA/PycharmProjects/Python_ICP's/ICP-10 (Deep Learning-3)_Word Embedding/sentiment_analysis.py"
+Using TensorFlow backend.
+   Unnamed: 0  type  ... label         file
+0           0  test  ...   neg      0_2.txt
+1           1  test  ...   neg  10000_4.txt
+2           2  test  ...   neg  10001_1.txt
+3           3  test  ...   neg  10002_3.txt
+4           4  test  ...   neg  10003_3.txt
+
+[5 rows x 5 columns]
+Traceback (most recent call last):
+  File "C:/Users/SHRAVYALA/PycharmProjects/Python_ICP's/ICP-10 (Deep Learning-3)_Word Embedding/sentiment_analysis.py", line 27, in <module>
+    model.add(layers.Dense(300,input_dim=input_dim, activation='relu'))
+NameError: name 'input_dim' is not defined
+
+Process finished with exit code 1
