@@ -1,0 +1,80 @@
+[1 2 1 ... 2 0 2]
+0         Neutral
+1        Positive
+2         Neutral
+3        Positive
+4        Positive
+           ...   
+13866    Negative
+13867    Positive
+13868    Positive
+13869    Negative
+13870    Positive
+Name: sentiment, Length: 13871, dtype: object
+/usr/local/lib/python3.6/dist-packages/tensorflow/python/framework/indexed_slices.py:434: UserWarning: Converting sparse IndexedSlices to a dense Tensor of unknown shape. This may consume a large amount of memory.
+  "Converting sparse IndexedSlices to a dense Tensor of unknown shape. "
+Epoch 1/1
+ - 86s - loss: 0.8357 - accuracy: 0.6423
+Epoch 1/1
+ - 87s - loss: 0.8299 - accuracy: 0.6438
+Epoch 1/1
+ - 86s - loss: 0.8272 - accuracy: 0.6430
+Epoch 1/1
+ - 93s - loss: 0.8327 - accuracy: 0.6457
+Epoch 1/1
+ - 90s - loss: 0.8279 - accuracy: 0.6449
+Epoch 1/2
+ - 88s - loss: 0.8318 - accuracy: 0.6470
+Epoch 2/2
+ - 86s - loss: 0.6924 - accuracy: 0.7103
+Epoch 1/2
+ - 90s - loss: 0.8292 - accuracy: 0.6434
+Epoch 2/2
+ - 89s - loss: 0.6900 - accuracy: 0.7080
+Epoch 1/2
+ - 88s - loss: 0.8300 - accuracy: 0.6429
+Epoch 2/2
+ - 92s - loss: 0.6825 - accuracy: 0.7112
+Epoch 1/2
+ - 89s - loss: 0.8318 - accuracy: 0.6465
+Epoch 2/2
+ - 87s - loss: 0.6813 - accuracy: 0.7153
+Epoch 1/2
+ - 89s - loss: 0.8195 - accuracy: 0.6456
+Epoch 2/2
+ - 88s - loss: 0.6722 - accuracy: 0.7161
+Epoch 1/1
+ - 44s - loss: 0.8317 - accuracy: 0.6404
+Epoch 1/1
+ - 45s - loss: 0.8376 - accuracy: 0.6412
+Epoch 1/1
+ - 44s - loss: 0.8305 - accuracy: 0.6443
+Epoch 1/1
+ - 45s - loss: 0.8326 - accuracy: 0.6394
+Epoch 1/1
+ - 45s - loss: 0.8309 - accuracy: 0.6402
+Epoch 1/2
+ - 44s - loss: 0.8323 - accuracy: 0.6446
+Epoch 2/2
+ - 45s - loss: 0.6915 - accuracy: 0.7115
+Epoch 1/2
+ - 45s - loss: 0.8353 - accuracy: 0.6418
+Epoch 2/2
+ - 45s - loss: 0.6888 - accuracy: 0.7117
+Epoch 1/2
+ - 49s - loss: 0.8390 - accuracy: 0.6384
+Epoch 2/2
+ - 47s - loss: 0.6929 - accuracy: 0.7062
+Epoch 1/2
+ - 48s - loss: 0.8384 - accuracy: 0.6425
+Epoch 2/2
+ - 45s - loss: 0.6852 - accuracy: 0.7065
+Epoch 1/2
+ - 46s - loss: 0.8377 - accuracy: 0.6386
+Epoch 2/2
+ - 45s - loss: 0.6810 - accuracy: 0.7120
+Epoch 1/2
+ - 113s - loss: 0.8202 - accuracy: 0.6490
+Epoch 2/2
+ - 110s - loss: 0.6827 - accuracy: 0.7130
+Best: 0.683847 using {'batch_size': 10, 'epochs': 2}

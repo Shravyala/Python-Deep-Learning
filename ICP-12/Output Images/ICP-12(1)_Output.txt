@@ -1,0 +1,59 @@
+[1 2 1 ... 2 0 2]
+0         Neutral
+1        Positive
+2         Neutral
+3        Positive
+4        Positive
+           ...   
+13866    Negative
+13867    Positive
+13868    Positive
+13869    Negative
+13870    Positive
+Name: sentiment, Length: 13871, dtype: object
+/usr/local/lib/python3.6/dist-packages/tensorflow/python/framework/indexed_slices.py:434: UserWarning: Converting sparse IndexedSlices to a dense Tensor of unknown shape. This may consume a large amount of memory.
+  "Converting sparse IndexedSlices to a dense Tensor of unknown shape. "
+Epoch 1/20
+ - 17s - loss: 0.8286 - accuracy: 0.6398
+Epoch 2/20
+ - 16s - loss: 0.6861 - accuracy: 0.7071
+Epoch 3/20
+ - 16s - loss: 0.6179 - accuracy: 0.7427
+Epoch 4/20
+ - 16s - loss: 0.5691 - accuracy: 0.7679
+Epoch 5/20
+ - 16s - loss: 0.5311 - accuracy: 0.7850
+Epoch 6/20
+ - 17s - loss: 0.4890 - accuracy: 0.7992
+Epoch 7/20
+ - 16s - loss: 0.4570 - accuracy: 0.8137
+Epoch 8/20
+ - 16s - loss: 0.4241 - accuracy: 0.8279
+Epoch 9/20
+ - 17s - loss: 0.4038 - accuracy: 0.8396
+Epoch 10/20
+ - 16s - loss: 0.3713 - accuracy: 0.8495
+Epoch 11/20
+ - 16s - loss: 0.3561 - accuracy: 0.8579
+Epoch 12/20
+ - 16s - loss: 0.3368 - accuracy: 0.8604
+Epoch 13/20
+ - 16s - loss: 0.3139 - accuracy: 0.8754
+Epoch 14/20
+ - 17s - loss: 0.2973 - accuracy: 0.8809
+Epoch 15/20
+ - 16s - loss: 0.2870 - accuracy: 0.8822
+Epoch 16/20
+ - 16s - loss: 0.2742 - accuracy: 0.8889
+Epoch 17/20
+ - 16s - loss: 0.2669 - accuracy: 0.8894
+Epoch 18/20
+ - 17s - loss: 0.2580 - accuracy: 0.8933
+Epoch 19/20
+ - 16s - loss: 0.2442 - accuracy: 0.8990
+Epoch 20/20
+ - 15s - loss: 0.2364 - accuracy: 0.9022
+score 1.7830175076472599
+accuracy 0.6491917967796326
+Model Metrics Names ['loss', 'accuracy']
+[[6.9482246e-04 5.9914176e-04 9.9870598e-01]]
